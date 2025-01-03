@@ -18,9 +18,14 @@ export default {
       },
       backgroundImage: { 
         'desktop': "url('./src/assets/images/bg-sidebar-desktop.svg')", 
-        'mobile': "url('./src/assets/images/bg-sidebar-mobile.svg')", },
+        'mobile': "url('./src/assets/images/bg-sidebar-mobile.svg')", 
+      },
     },
   },
+  safelist: [
+    'desktop',
+    'mobile',
+  ],
   plugins: [],
 }
 
