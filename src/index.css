@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input {
+    @apply bg-white border border-gray-400 rounded-lg
+}
+.btn{
+    @apply bg-polynesianBlue text-white text-center p-3 rounded-xl transition ease-out duration-700
+}
+.btn:hover{
+    @apply bg-palatinateBlue
+}
+.h1{
+    @apply text-polynesianBlue text-2xl font-bold
+}
+.sub{
+    @apply text-sm text-coolGray pb-3
+}
+.nav{
+    @apply bg-none w-10 h-10 rounded-full flex items-center justify-center border
+}
+.active{
+    @apply text-polynesianBlue bg-aliceBlue w-10 h-10 rounded-full flex items-center justify-center border
+}
+.eve{
+    @apply border-2 border-palatinateBlue bg-aliceBlue
+}
+.checkbox{
+    @apply  bg-palatinateBlue
+}
+.main{
+    @apply px-4 pt-3 md:pt-16 bg-white md:bg-none rounded-b-xl md:rounded-none shadow-lg md:shadow-none pb-14 md:pb-0
+}
